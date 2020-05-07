@@ -1,0 +1,29 @@
+.slogan{
+   min-height: 40vh;
+   background-color: #ececec;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+}
+.container {
+   width: 80%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+.title{
+   color: #00aeef;
+   font-size: 48px;
+   font-weight: bold;
+   margin-top: 20px;
+}
+.btn button{
+   color: #00aeef;
+   background-color: #282c34;
+   width: 200px;
+   height: 50px;
+   text-transform: uppercase;
+   font-size: 22px;
+   border: none;
+   outline: none;
+}

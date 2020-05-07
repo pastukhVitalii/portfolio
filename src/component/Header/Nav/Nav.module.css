@@ -1,0 +1,28 @@
+.nav{
+   height: 60px;
+   width: 350px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-size: 18px;
+   font-weight: 500;
+}
+.nav a {
+   text-decoration: none;
+   transition: 0.2s;
+}
+a:visited {
+   color: #00aeef;
+}
+a:hover {
+   color: rgba(0, 174, 239, 0.76);
+}
+
+/*RESPONSIVE*/
+
+@media (max-width: 576px) {
+   .nav{
+      font-size: 16px;
+      width: 300px;
+   }
+}

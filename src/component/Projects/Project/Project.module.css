@@ -1,0 +1,86 @@
+.project {
+    max-width: 400px;
+    object-fit: scale-down;
+}
+
+.preview {
+    height: 420px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*background-image: url('./example.png');*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project:hover .btn {
+    opacity: 1;
+}
+.btn {
+    width: 150px;
+    height: 40px;
+    color: #00aeef;
+    opacity: 0;
+    transition: .3s;
+    border: none;
+    background-color: #282c34;
+    text-transform: uppercase;
+}
+
+.description {
+    padding-bottom: 10px;
+    background-color: #ececec;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #00aeef;
+    padding-top: 10px;
+}
+
+/*RESPONSIVE*/
+
+@media (max-width: 576px) {
+    .project {
+        max-width: 300px;
+        margin: 10px 0;
+    }
+
+    .preview {
+        max-height: 250px;
+    }
+}
+
+@media (min-width: 768px) {
+    .project {
+        max-width: 300px;
+        margin: 10px 0;
+    }
+
+    .preview {
+        height: 300px;
+    }
+}
+
+@media (min-width: 992px) {
+    .project {
+        max-width: 350px;
+        margin: 10px 0;
+    }
+
+    .preview {
+        height: 350px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .project {
+        max-width: 400px;
+    }
+
+    .preview {
+        height: 300px;
+    }
+}

@@ -1,0 +1,97 @@
+.main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /*background-image: url("https://images.unsplash.com/photo-1586399254847-02e1369bac88?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");*/
+    /*background-image: url("https://images.unsplash.com/photo-1558980664-769d59546b3d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");*/
+    /*background-image: url("https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366_960_720.jpg");*/
+    /*background-image: url("https://image.shutterstock.com/image-photo/black-texture-600w-425076346.jpg");*/
+    /*background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;*/
+    background-color: #262626;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    color: #00aeef;
+    font-size: 72px;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+}
+
+.welcome span:first-child {
+    color: #ffffff;
+    font-size: 42px;
+}
+
+.welcome span:nth-child(2):before {
+    content: '';
+    background-color: #ffffff;
+    width: 230px;
+    height: 23px;
+    position: absolute;
+    left: 145px;
+    top: 115px;
+    z-index: -1;
+}
+
+.myPhoto img {
+    height: 300px;
+    width: 250px;
+}
+
+.myPhoto {
+    position: relative;
+    z-index: 1;
+}
+
+.myPhoto:before {
+    content: '';
+    border: 5px #00aeef solid;
+    height: 105%;
+    width: 100%;
+    position: absolute;
+    top: -10px;
+    left: 5px;
+    z-index: -1;
+}
+
+
+/*RESPONSIVE*/
+@media (max-width: 576px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .welcome {
+        font-size: 20px;
+    }
+    .welcome span:nth-child(2):before {
+        width: 64px;
+        height: 22px;
+        left: 39px;
+        top: 54px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 100%;
+    }
+}
