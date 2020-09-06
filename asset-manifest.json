@@ -1,26 +1,33 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ebbd11df.chunk.css",
-    "main.js": "/portfolio/static/js/main.e4897b39.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.e4897b39.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.b37861ed.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.b37861ed.js.map",
-    "static/js/2.554497e7.chunk.js": "/portfolio/static/js/2.554497e7.chunk.js",
-    "static/js/2.554497e7.chunk.js.map": "/portfolio/static/js/2.554497e7.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.1a51bdd9.chunk.css",
+    "main.js": "/portfolio/static/js/main.5304e374.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.5304e374.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
+    "static/js/2.a36c2243.chunk.js": "/portfolio/static/js/2.a36c2243.chunk.js",
+    "static/js/2.a36c2243.chunk.js.map": "/portfolio/static/js/2.a36c2243.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.ecacedc79b7e84ab0f81978c4351b5bf.js": "/portfolio/precache-manifest.ecacedc79b7e84ab0f81978c4351b5bf.js",
+    "precache-manifest.77bc26c3ad6b6b20dbf12e9019d80d60.js": "/portfolio/precache-manifest.77bc26c3ad6b6b20dbf12e9019d80d60.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.ebbd11df.chunk.css.map": "/portfolio/static/css/main.ebbd11df.chunk.css.map",
-    "static/js/2.554497e7.chunk.js.LICENSE.txt": "/portfolio/static/js/2.554497e7.chunk.js.LICENSE.txt",
+    "static/css/main.1a51bdd9.chunk.css.map": "/portfolio/static/css/main.1a51bdd9.chunk.css.map",
+    "static/js/2.a36c2243.chunk.js.LICENSE.txt": "/portfolio/static/js/2.a36c2243.chunk.js.LICENSE.txt",
+    "static/media/SN.png": "/portfolio/static/media/SN.d6000a75.png",
+    "static/media/code-solid.svg": "/portfolio/static/media/code-solid.e8e8f759.svg",
+    "static/media/codewars.svg": "/portfolio/static/media/codewars.b70bddee.svg",
     "static/media/facebook-brands.svg": "/portfolio/static/media/facebook-brands.62d8b6ef.svg",
-    "static/media/google-plus-brands.svg": "/portfolio/static/media/google-plus-brands.c45ce9e4.svg",
+    "static/media/github-brands.svg": "/portfolio/static/media/github-brands.ec5bc1b3.svg",
+    "static/media/js-brands.svg": "/portfolio/static/media/js-brands.3094c423.svg",
+    "static/media/linkedin-in-brands.svg": "/portfolio/static/media/linkedin-in-brands.1e01f0c0.svg",
+    "static/media/myPhoto.jpg": "/portfolio/static/media/myPhoto.e538aabc.jpg",
     "static/media/react-brands.svg": "/portfolio/static/media/react-brands.d8cf7740.svg",
-    "static/media/telegram-brands.svg": "/portfolio/static/media/telegram-brands.79e74aaa.svg"
+    "static/media/telegram-brands.svg": "/portfolio/static/media/telegram-brands.79e74aaa.svg",
+    "static/media/todolist.png": "/portfolio/static/media/todolist.53554e15.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b37861ed.js",
-    "static/js/2.554497e7.chunk.js",
-    "static/css/main.ebbd11df.chunk.css",
-    "static/js/main.e4897b39.chunk.js"
+    "static/js/runtime-main.209c2d7e.js",
+    "static/js/2.a36c2243.chunk.js",
+    "static/css/main.1a51bdd9.chunk.css",
+    "static/js/main.5304e374.chunk.js"
   ]
 }
